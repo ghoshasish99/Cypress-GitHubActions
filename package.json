@@ -14,7 +14,7 @@
   },
   "scripts": {
     "cypress:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "npx cypress run"
   },
   "author": "Ashish Ghosh",
   "license": "ISC",
