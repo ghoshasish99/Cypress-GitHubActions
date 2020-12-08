@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-05T22:30:46" tests="1" file="cypress\integration\GetUser\getuser.js" time="0.0000" failures="1">
+    <testcase name="An uncaught error was detected outside of a test" time="0.0000" classname="An uncaught error was detected outside of a test">
+      <failure message="The following error originated from your test code, not from Cypress.
+
+  &gt; Cannot read property &apos;prototype&apos; of undefined
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure." type="TypeError"><![CDATA[TypeError: The following error originated from your test code, not from Cypress.
+
+  > Cannot read property 'prototype' of undefined
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure.
+    at Object.eval (http://localhost:54692/__cypress/tests?p=cypress\integration\GetUser\getuser.js:33093:45)
+    at Object.166../utils (http://localhost:54692/__cypress/tests?p=cypress\integration\GetUser\getuser.js:34195:4)
+    at o (http://localhost:54692/__cypress/tests?p=cypress\integration\GetUser\getuser.js:1:265)
+    at eval (http://localhost:54692/__cypress/tests?p=cypress\integration\GetUser\getuser.js:1:316)
+    at Object.162../application (http://localhost:54692/__cypress/tests?p=cypress\integration\GetUser\getuser.js:32333:11)
+    at o (http://localhost:54692/__cypress/tests?p=cypress\integration\GetUser\getuser.js:1:265)
+    at eval (http://localhost:54692/__cypress/tests?p=cypress\integration\GetUser\getuser.js:1:316)
+    at Object.160../lib/express (http://localhost:54692/__cypress/tests?p=cypress\integration\GetUser\getuser.js:31660:18)
+    at o (http://localhost:54692/__cypress/tests?p=cypress\integration\GetUser\getuser.js:1:265)
+    at eval (http://localhost:54692/__cypress/tests?p=cypress\integration\GetUser\getuser.js:1:316)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

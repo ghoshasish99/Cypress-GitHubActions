@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.3040" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-05T22:14:45" tests="0" file="cypress\integration\GetUser.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Get User Details" timestamp="2020-07-05T22:14:45" tests="1" time="0.3040" failures="0">
+    <testcase name="Get User Details Get User Details against virtual service" time="0.3040" classname="Get User Details against virtual service">
+    </testcase>
+  </testsuite>
+</testsuites>

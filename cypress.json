@@ -1,0 +1,16 @@
+{
+        "env": {
+          "url": "https://parabank.parasoft.com/parabank/register.htm",
+          "baseURL1": "http://parabank.parasoft.com/parabank/services/bank",
+          "baseURL" : "https://reqres.in/api"
+        },        
+       "testFiles" : [
+         "**/Register.feature",
+         "**/Login.feature"
+       ],
+       "reporter": "mocha-junit-reporter",
+        "reporterOptions": {
+          "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
+          "testsuitesTitle": false
+        }
+}
