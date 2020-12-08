@@ -20,7 +20,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 10.x
+    - name: Install dependencies
+      run: npm install        
     - name: Run Cypress Test
-      run: |
-        npm install
-        npm run cy:run
+      run: npm run cy:run
+       
